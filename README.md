@@ -1,8 +1,9 @@
 ####AddingActionToUIButtonProgrammatically ####
 
-import UIKit
 
+import UIKit
 class ViewController: UIViewController {
+    
     // Declaration button
     var button: UIButton!
 
@@ -46,8 +47,4 @@ class ViewController: UIViewController {
         button.setTitleColor(.blue, for: UIControlState.normal)
     
     }
-
-
-
 }
-Adding action to UIButton programmatically.
